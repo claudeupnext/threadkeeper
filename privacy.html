@@ -20,16 +20,17 @@
 <p class="tldr"><b>Short version: your data stays on your computer.</b> We collect nothing, and we have no server that receives your threads.</p>
 
 <h2>What the extension reads</h2>
-<p>When you open a thread on perplexity.ai, Threadkeeper reads that page's question and answer text, its title and URL, and its source links. It does this so it can save the thread to your library and export it. It does not run on any other site. It does not read your Perplexity account details, passwords, cookies or payment information.</p>
+<p>When you open a thread on perplexity.ai, Threadkeeper reads that page's question and answer text, its title and URL, and its source links. It does this so it can save the thread to your library and export it. It does not run on any other site, except extensionpay.com pages during a Pro checkout. It does not read your Perplexity account details, passwords, cookies or payment information.</p>
 
 <h2>Where it is stored</h2>
 <p>Everything Threadkeeper saves stays in your browser's local extension storage (<code>chrome.storage.local</code>) on your device. That includes threads, folders, tags, prompts and settings. None of it is sent to us or anyone else, and it is not synced to your Google account. Exports (Markdown, ZIP, PDF, JSON backup) are files your browser saves where you choose.</p>
 
 <h2>What we collect</h2>
-<p>Nothing. There are no analytics, no tracking, no ads and no third-party scripts. The extension makes no network requests of its own, except the Pro license check described below.</p>
+<p>Nothing. There are no analytics, no tracking and no ads. The only third-party code is ExtensionPay's payment library, which is bundled inside the extension and used only for Pro checkout and license checks. The extension makes no other network requests.</p>
 
 <h2>Payments (Pro)</h2>
-<p>If you buy Pro, the checkout is handled by our payment provider (ExtensionPay with Stripe, or Lemon Squeezy). The provider processes your email and payment details under its own privacy policy. To confirm you have Pro, the extension asks the provider whether your license is active. That check sends only your license or account identifier, never your threads.</p>
+<p>If you buy Pro, checkout happens on ExtensionPay's website (extensionpay.com), and the payment is processed by Stripe. ExtensionPay and Stripe handle your email and payment details under their own privacy policies (<a href="https://extensionpay.com/privacy">ExtensionPay</a>, <a href="https://stripe.com/privacy">Stripe</a>). The extension never sees your card details.</p>
+<p>To confirm you have Pro, the extension asks ExtensionPay whether your purchase is active. That check sends only an anonymous ID that ExtensionPay assigns to your installation, plus your account email if you bought Pro. It never sends your threads, folders, tags or prompts.</p>
 
 <h2>Deleting your data</h2>
 <p>To delete saved threads, use <b>Delete</b> in the library. To delete everything, remove the extension: Chrome deletes its local storage when you do.</p>
