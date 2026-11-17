@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://claudeupnext.github.io/threadkeeper/sitemap.xml
