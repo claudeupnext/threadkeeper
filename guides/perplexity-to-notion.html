@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to save Perplexity threads to Notion (whole thread, sources kept)</title><meta name="description" content="Move a Perplexity thread into Notion with every question, answer and source link: export to Markdown, then import or drag it into Notion. Works for one thread or many."><link rel="canonical" href="https://claudeupnext.github.io/threadkeeper/guides/perplexity-to-notion.html">
+<meta property="og:title" content="How to save Perplexity threads to Notion (whole thread, sources kept)"><meta property="og:description" content="Move a Perplexity thread into Notion with every question, answer and source link: export to Markdown, then import or drag it into Notion. Works for one thread or many."><meta property="og:url" content="https://claudeupnext.github.io/threadkeeper/guides/perplexity-to-notion.html"><meta property="og:type" content="website">
+<link rel="icon" href="../img/icon128.png"><style>:root{--bg:#fbfaf7;--fg:#1d2321;--mut:#5b6461;--acc:#0f766e;--card:#fff;--line:#e4e1da}
+@media (prefers-color-scheme:dark){:root{--bg:#141817;--fg:#e9ece9;--mut:#a2aba7;--acc:#5eead4;--card:#1c2120;--line:#2c3331}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:760px;margin:0 auto;padding:0 18px}header{border-bottom:1px solid var(--line)}header .w{display:flex;align-items:center;gap:10px;padding:14px 18px}
+header a{color:var(--fg);text-decoration:none;font-weight:600}header nav{margin-left:auto;display:flex;gap:16px;font-size:15px}header nav a{font-weight:400;color:var(--mut)}
+h1{font-size:2rem;line-height:1.2;margin:1.6em 0 .4em}h2{font-size:1.3rem;margin:1.8em 0 .4em}a{color:var(--acc)}
+.cta{display:inline-block;background:var(--acc);color:#fff;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;margin:8px 0}
+@media (prefers-color-scheme:dark){.cta{color:#062b27}}
+.lead{color:var(--mut);font-size:1.1rem}img.shot{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:12px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:18px 0}
+ol li,ul li{margin:.3em 0}footer{border-top:1px solid var(--line);margin-top:60px;color:var(--mut);font-size:14px}footer .w{padding:20px 18px}
+table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}</style>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","headline":"How to save Perplexity threads to Notion (whole thread, sources kept)","dateModified":"2026-11-20","author":{"@type":"Organization","name":"Little Lamp Software"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I import Perplexity into a Notion database?","acceptedAnswer":{"@type":"Answer","text":"Yes. Import the Markdown files into a page inside a database, or move the imported pages into one afterwards. Each thread becomes one page."}},{"@type":"Question","name":"Does Threadkeeper connect to my Notion account?","acceptedAnswer":{"@type":"Answer","text":"No. It never logs in to Notion. It creates Markdown files on your computer, and you import them. Nothing is sent to any server."}}]}]</script></head><body>
+<header><div class="w"><img src="../img/icon128.png" width="28" height="28" alt=""><a href="../">Threadkeeper</a>
+<nav><a href="../guides/">Guides</a><a href="../privacy.html">Privacy</a><a href="https://chromewebstore.google.com/detail/threadkeeper-folders-sear/aofmloaeblkkckkbfphckmkejgonkdnf">Chrome Web Store</a></nav></div></header>
+<main class="w"><h1>How to save Perplexity threads to Notion</h1>
+<p class="lead">Notion reads Markdown well, so the cleanest route from Perplexity to Notion is a Markdown file. You keep headings, lists, code blocks and the source links.</p>
+<h2>One thread</h2><ol>
+<li>Install <a href="https://chromewebstore.google.com/detail/threadkeeper-folders-sear/aofmloaeblkkckkbfphckmkejgonkdnf">Threadkeeper</a> (free) and open the thread on perplexity.ai. It is saved automatically.</li>
+<li>Click the Threadkeeper button at the bottom right and choose <b>Export Markdown</b>.</li>
+<li>In Notion, click <b>Import</b> in the sidebar (or Settings), pick <b>Text &amp; Markdown</b> and choose the file. You can also drag the .md file onto a Notion page.</li></ol>
+<p>Each question becomes a heading with its answer underneath, so a long thread with many follow-ups turns into one tidy Notion page.</p>
+<img class="shot" src="../img/03-export.jpg" alt="Exporting a Perplexity thread to Markdown for Notion" width="960" height="600" loading="lazy">
+<h2>Many threads at once (Pro)</h2><ol>
+<li>In the Threadkeeper library, tick the threads you want, or a whole folder.</li>
+<li>Export them as one ZIP of Markdown files (Pro, $19 once).</li>
+<li>Unzip, then import the files into Notion in one go. Each thread becomes its own page.</li></ol>
+<div class="box"><b>Why not copy and paste?</b> Pasting a long answer usually drops the source links or mangles tables and code. A Markdown export keeps them.</div><p><a class="cta" href="https://chromewebstore.google.com/detail/threadkeeper-folders-sear/aofmloaeblkkckkbfphckmkejgonkdnf">Add Threadkeeper to Chrome, free</a></p><h2>FAQ</h2><h3>Can I import Perplexity into a Notion database?</h3><p>Yes. Import the Markdown files into a page inside a database, or move the imported pages into one afterwards. Each thread becomes one page.</p><h3>Does Threadkeeper connect to my Notion account?</h3><p>No. It never logs in to Notion. It creates Markdown files on your computer, and you import them. Nothing is sent to any server.</p></main>
+<footer><div class="w">Threadkeeper is made by Little Lamp Software, an independent developer. It is not made, endorsed or sponsored by Perplexity AI, Inc. Updated 2026-11-20.</div></footer>
+</body></html>
